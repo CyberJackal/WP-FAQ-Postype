@@ -1,0 +1,23 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-lh-block-cta-block {
+
+}
+.wp-block-faqs > .inner{
+  list-style: none;
+  display: flex !important;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.wp-block-faqs .faq-block{
+  display: block;
+  width: 46%;
+  -ms-flex: 1 1 48%;
+  flex: 1 1 46%;
+  margin-right: 2%;
+  margin-left: 2%;
+}

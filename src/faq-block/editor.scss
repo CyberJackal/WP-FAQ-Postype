@@ -1,0 +1,21 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-lh-block-faq-block {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.wp-block-lh-block-faq-block  li{
+  display: block;
+  width: 46%;
+  -ms-flex: 1 1 48%;
+  flex: 1 1 46%;
+  margin-right: 2%;
+  margin-left: 2%;
+}

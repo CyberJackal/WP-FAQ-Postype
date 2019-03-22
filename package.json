@@ -1,0 +1,19 @@
+{
+  "name": "cta-block-cgb-guten-block",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^2.2.5",
+    "@wordpress/components": "^7.0.1",
+    "cgb-scripts": "1.9.8",
+    "lodash": "4.17.10",
+    "querystringify": "1.0.0",
+    "save": "^2.3.2",
+    "striptags": "^3.1.1"
+  }
+}
